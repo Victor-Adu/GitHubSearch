@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewViewController.h
 //  GithubSearch
 //
 //  Created by Victor  Adu on 4/12/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewViewController : UIViewController
 
+@property (strong, nonatomic) NSString *html_url;
 
 @end
-

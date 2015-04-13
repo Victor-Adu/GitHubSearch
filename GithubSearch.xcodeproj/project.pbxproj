@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		5BB9F7181ADAF55B009E2145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7171ADAF55B009E2145 /* main.m */; };
 		5BB9F71B1ADAF55B009E2145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F71A1ADAF55B009E2145 /* AppDelegate.m */; };
-		5BB9F71E1ADAF55B009E2145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F71D1ADAF55B009E2145 /* ViewController.m */; };
 		5BB9F7211ADAF55B009E2145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9F71F1ADAF55B009E2145 /* Main.storyboard */; };
 		5BB9F7231ADAF55B009E2145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9F7221ADAF55B009E2145 /* Images.xcassets */; };
 		5BB9F7261ADAF55B009E2145 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BB9F7241ADAF55B009E2145 /* LaunchScreen.xib */; };
 		5BB9F7321ADAF55B009E2145 /* GithubSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7311ADAF55B009E2145 /* GithubSearchTests.m */; };
+		5BB9F7401ADAF615009E2145 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F73F1ADAF615009E2145 /* Repository.m */; };
+		5BB9F7431ADAF6D8009E2145 /* Code.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7421ADAF6D8009E2145 /* Code.m */; };
+		5BB9F7461ADAF734009E2145 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7451ADAF734009E2145 /* User.m */; };
+		5BB9F7491ADAF811009E2145 /* UserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7481ADAF811009E2145 /* UserCollectionViewCell.m */; };
+		5BB9F74C1ADAF8B3009E2145 /* NetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F74B1ADAF8B3009E2145 /* NetworkController.m */; };
+		5BB9F7551ADAFAE1009E2145 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F7541ADAFAE1009E2145 /* WebViewViewController.m */; };
+		5BB9F75C1ADAFD18009E2145 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB9F75B1ADAFD18009E2145 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,26 @@
 		5BB9F7171ADAF55B009E2145 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BB9F7191ADAF55B009E2145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BB9F71A1ADAF55B009E2145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BB9F71C1ADAF55B009E2145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BB9F71D1ADAF55B009E2145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5BB9F7201ADAF55B009E2145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BB9F7221ADAF55B009E2145 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5BB9F7251ADAF55B009E2145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5BB9F72B1ADAF55B009E2145 /* GithubSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB9F7301ADAF55B009E2145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BB9F7311ADAF55B009E2145 /* GithubSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubSearchTests.m; sourceTree = "<group>"; };
+		5BB9F73E1ADAF615009E2145 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		5BB9F73F1ADAF615009E2145 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		5BB9F7411ADAF6D8009E2145 /* Code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Code.h; sourceTree = "<group>"; };
+		5BB9F7421ADAF6D8009E2145 /* Code.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Code.m; sourceTree = "<group>"; };
+		5BB9F7441ADAF734009E2145 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5BB9F7451ADAF734009E2145 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5BB9F7471ADAF811009E2145 /* UserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCollectionViewCell.h; sourceTree = "<group>"; };
+		5BB9F7481ADAF811009E2145 /* UserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCollectionViewCell.m; sourceTree = "<group>"; };
+		5BB9F74A1ADAF8B3009E2145 /* NetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkController.h; sourceTree = "<group>"; };
+		5BB9F74B1ADAF8B3009E2145 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
+		5BB9F7531ADAFAE1009E2145 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		5BB9F7541ADAFAE1009E2145 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+		5BB9F75A1ADAFD18009E2145 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		5BB9F75B1ADAFD18009E2145 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +99,9 @@
 		5BB9F7141ADAF55B009E2145 /* GithubSearch */ = {
 			isa = PBXGroup;
 			children = (
-				5BB9F7191ADAF55B009E2145 /* AppDelegate.h */,
-				5BB9F71A1ADAF55B009E2145 /* AppDelegate.m */,
-				5BB9F71C1ADAF55B009E2145 /* ViewController.h */,
-				5BB9F71D1ADAF55B009E2145 /* ViewController.m */,
-				5BB9F71F1ADAF55B009E2145 /* Main.storyboard */,
+				5BB9F73D1ADAF591009E2145 /* Controllers */,
+				5BB9F73C1ADAF58B009E2145 /* Views */,
+				5BB9F73B1ADAF585009E2145 /* Models */,
 				5BB9F7221ADAF55B009E2145 /* Images.xcassets */,
 				5BB9F7241ADAF55B009E2145 /* LaunchScreen.xib */,
 				5BB9F7151ADAF55B009E2145 /* Supporting Files */,
@@ -117,6 +133,52 @@
 				5BB9F7301ADAF55B009E2145 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BB9F73B1ADAF585009E2145 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BB9F73E1ADAF615009E2145 /* Repository.h */,
+				5BB9F73F1ADAF615009E2145 /* Repository.m */,
+				5BB9F7411ADAF6D8009E2145 /* Code.h */,
+				5BB9F7421ADAF6D8009E2145 /* Code.m */,
+				5BB9F7441ADAF734009E2145 /* User.h */,
+				5BB9F7451ADAF734009E2145 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5BB9F73C1ADAF58B009E2145 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BB9F71F1ADAF55B009E2145 /* Main.storyboard */,
+				5BB9F7471ADAF811009E2145 /* UserCollectionViewCell.h */,
+				5BB9F7481ADAF811009E2145 /* UserCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5BB9F73D1ADAF591009E2145 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB9F7191ADAF55B009E2145 /* AppDelegate.h */,
+				5BB9F71A1ADAF55B009E2145 /* AppDelegate.m */,
+				5BB9F74A1ADAF8B3009E2145 /* NetworkController.h */,
+				5BB9F74B1ADAF8B3009E2145 /* NetworkController.m */,
+				5BB9F7531ADAFAE1009E2145 /* WebViewViewController.h */,
+				5BB9F7541ADAFAE1009E2145 /* WebViewViewController.m */,
+				5BB9F75D1ADAFD99009E2145 /* Search VC */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BB9F75D1ADAFD99009E2145 /* Search VC */ = {
+			isa = PBXGroup;
+			children = (
+				5BB9F75A1ADAFD18009E2145 /* SearchViewController.h */,
+				5BB9F75B1ADAFD18009E2145 /* SearchViewController.m */,
+			);
+			name = "Search VC";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB9F71E1ADAF55B009E2145 /* ViewController.m in Sources */,
+				5BB9F7461ADAF734009E2145 /* User.m in Sources */,
+				5BB9F75C1ADAFD18009E2145 /* SearchViewController.m in Sources */,
+				5BB9F7431ADAF6D8009E2145 /* Code.m in Sources */,
+				5BB9F7551ADAFAE1009E2145 /* WebViewViewController.m in Sources */,
 				5BB9F71B1ADAF55B009E2145 /* AppDelegate.m in Sources */,
+				5BB9F7491ADAF811009E2145 /* UserCollectionViewCell.m in Sources */,
+				5BB9F74C1ADAF8B3009E2145 /* NetworkController.m in Sources */,
+				5BB9F7401ADAF615009E2145 /* Repository.m in Sources */,
 				5BB9F7181ADAF55B009E2145 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
